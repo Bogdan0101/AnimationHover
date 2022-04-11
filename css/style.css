@@ -1,0 +1,207 @@
+*,
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+.boxbox {
+	width: 482px;
+	height: 650px;
+	position: absolute;
+	left: 20%;
+}
+.box {
+	width: 450px;
+	height: 330px;
+	border: 10px solid rgb(0, 0, 0);
+	border-radius: 50% 50% 45% 45%;
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	background-color: #fff;
+}
+.head {
+	position: absolute;
+	left: -57px;
+	top: -155px;
+}
+.boxbox:hover .head {
+	transform: translateY(-100px);
+	transition: 2s;
+}
+.ear {
+	width: 85px;
+	height: 85px;
+	position: absolute;
+	border-radius: 70% 60% 70% 45%;
+	background-color: black;
+	right: 1px;
+	top: 1px;
+	z-index: -1;
+}
+.optic1 {
+	width: 140px;
+	height: 105px;
+	background-color: black;
+	border-radius: 70% 35%;
+	position: absolute;
+	bottom: 70px;
+	left: 40px;
+}
+.boxbox:hover .optic1 {
+	transition: 2s;
+	transform: rotate(30deg);
+}
+.optic11 {
+	width: 55px;
+	height: 55px;
+	background-color: #49c9f2;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-radius: 50%;
+}
+
+.optic12 {
+	width: 23px;
+	height: 23px;
+	background-color: #bde6f5;
+	position: absolute;
+	top: 15px;
+	right: 70px;
+	border-radius: 50%;
+}
+.optic2 {
+	width: 140px;
+	height: 105px;
+	background-color: black;
+	border-radius: 35% 70%;
+	position: absolute;
+	bottom: 70px;
+	right: 40px;
+}
+.boxbox:hover .optic2 {
+	transition: 2s;
+	transform: rotate(-30deg);
+}
+.optic21 {
+	width: 55px;
+	height: 55px;
+	background-color: #49c9f2;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border-radius: 50%;
+}
+.optic22 {
+	width: 23px;
+	height: 23px;
+	background-color: #bde6f5;
+	position: absolute;
+	top: 15px;
+	left: 70px;
+	border-radius: 50%;
+}
+.nose {
+	width: 40px;
+	height: 23px;
+	background-color: black;
+	position: absolute;
+	border-radius: 50%;
+	right: 195px;
+	bottom: 95px;
+}
+.mot {
+	position: absolute;
+	left: 184px;
+	bottom: 67px;
+	z-index: 1;
+}
+.mot1 {
+	position: absolute;
+	background-color: red;
+	left: 203px;
+	bottom: 49px;
+	width: 24px;
+	height: 23px;
+	border-radius: 0 0 10px 10px;
+	display: none;
+}
+.boxbox:hover .mot1 {
+	display: block;
+	transition: 1s linear;
+	transform-origin: top;
+}
+.love {
+	position: absolute;
+	right: 77px;
+	top: 67px;
+}
+.boxbox:hover .love {
+	width: 50px;
+	height: 50px;
+}
+.box2 {
+	width: 320px;
+	height: 185px;
+	border: 10px solid rgb(0, 0, 0);
+	border-radius: 65% 50% 45% 45%;
+	position: absolute;
+	left: 43%;
+	top: 72%;
+	z-index: -1;
+}
+.hand1 {
+	width: 100px;
+	height: 85px;
+	background-color: black;
+	border-radius: 50% 50%;
+	position: absolute;
+	bottom: -25px;
+	left: 67px;
+}
+.boxbox:hover .hand1 {
+	transition: 1s linear;
+	transform: translateX(50px);
+}
+.hand2 {
+	width: 100px;
+	height: 85px;
+	background-color: black;
+	border-radius: 50% 50%;
+	position: absolute;
+	bottom: -25px;
+	right: 67px;
+}
+.boxbox:hover .hand2 {
+	transition: 1s linear;
+	transform: translateX(-50px);
+}
+.foot1 {
+	width: 140px;
+	height: 110px;
+	background-color: black;
+	border-radius: 45% 78% 39% 66%;
+	position: absolute;
+	bottom: -25px;
+	left: -40px;
+}
+.boxbox:hover .foot1 {
+	transition: 1s linear;
+	transform: translateX(50px);
+}
+.foot2 {
+	width: 140px;
+	height: 110px;
+	background-color: black;
+	border-radius: 78% 45% 66% 39%;
+	position: absolute;
+	bottom: -25px;
+	right: -40px;
+}
+.boxbox:hover .foot2 {
+	transition: 1s linear;
+	transform: translateX(-50px);
+}
